@@ -1,0 +1,42 @@
+
+{
+  "metadata": {
+    "title": "Exemplo de argumentação",
+    "source": "Dados de teste"
+  },
+  "arguments": [
+    {
+      "id": "A1",
+      "text": "A universidade deve oferecer mais disciplinas online.",
+      "author": "Autor A",
+      "type": "claim",
+      "stance": "pro"
+    },
+    {
+      "id": "A2",
+      "text": "Disciplinas online facilitam o acesso dos estudantes.",
+      "author": "Autor B",
+      "type": "evidence",
+      "stance": "pro"
+    },
+    {
+      "id": "A3",
+      "text": "Algumas disciplinas exigem atividades presenciais.",
+      "author": "Autor C",
+      "type": "counterargument",
+      "stance": "con"
+    }
+  ],
+  "relations": [
+    {
+      "source": "A2",
+      "target": "A1",
+      "type": "supports"
+    },
+    {
+      "source": "A3",
+      "target": "A1",
+      "type": "attacks"
+    }
+  ]
+}
