@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "title": "Oferta de disciplinas online",
+    "source": "Exemplo didático",
+    "description": "Exemplo ilustrativo com os seis elementos do modelo de Toulmin."
+  },
+  "arguments": [
+    {"id":"C1","text":"A universidade deve ampliar a oferta de disciplinas online.","author":"Autor A","type":"claim","stance":"pro","qualifier":"Em geral"},
+    {"id":"D1","text":"Disciplinas online permitem que estudantes de diferentes localidades acessem as aulas.","author":"Autor B","type":"grounds","stance":"pro","score":0.9},
+    {"id":"D2","text":"Parte dos estudantes trabalha em horários incompatíveis com aulas presenciais.","author":"Autor B","type":"grounds","stance":"pro"},
+    {"id":"W1","text":"Se uma modalidade amplia o acesso educacional sem comprometer os objetivos de aprendizagem, sua oferta deve ser considerada.","author":"Autor C","type":"warrant","stance":"pro"},
+    {"id":"B1","text":"A política institucional de inclusão prevê redução de barreiras geográficas e de horário.","author":"Autor C","type":"backing","stance":"pro"},
+    {"id":"Q1","text":"A ampliação deve ocorrer quando houver suporte pedagógico e tecnológico adequado.","author":"Autor A","type":"qualifier","stance":"neutral"},
+    {"id":"R1","text":"Disciplinas com laboratórios ou práticas presenciais obrigatórias podem exigir encontros físicos.","author":"Autor D","type":"rebuttal","stance":"con"}
+  ],
+  "relations": [
+    {"source":"D1","target":"C1","type":"supports"},
+    {"source":"D2","target":"C1","type":"supports"},
+    {"source":"W1","target":"C1","type":"warrants"},
+    {"source":"B1","target":"W1","type":"backs"},
+    {"source":"Q1","target":"C1","type":"qualifies"},
+    {"source":"R1","target":"C1","type":"attacks"}
+  ]
+}
